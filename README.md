@@ -15,7 +15,7 @@
 ### Links
 
 - Solution URL: [Github](https://github.com/Kshitiz42069/frontend-mentor-QR)
-- Live Site URL: [Live link](https://your-live-site-url.com)
+- Live Site URL: [Live link](https://kshitiz42069.github.io/frontend-mentor-QR/)
 
 ## My process
 
