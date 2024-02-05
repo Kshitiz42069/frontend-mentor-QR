@@ -4,11 +4,11 @@
 
 #### Desktop View:
 
-![](./images/Screenshot%202024-02-05%20at%205.50.01 PM.png)
+![](./images/ss2.png)
 
 #### Mobile view:
 
-![](./images/Screenshot%202024-02-05%20at%205.50.21 PM.png)
+![](./images/ss1.png)
 
 
 
