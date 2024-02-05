@@ -1,0 +1,126 @@
+*{
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width:1440px){
+    .layout{
+        background-color: hsl(212, 45%, 89%);
+        height: 100vh;
+    }
+    .component{
+        background-color: white;
+        width: 25%;
+        height: 72%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .QR{
+        padding: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img{
+        height: 20rem;
+        display: block;
+        width: 20rem;
+        border-radius: 10px;
+    }
+
+    .para{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .para h1{
+        font-size: 23px;
+        font-weight: 700;
+        margin-top: 1.5rem;
+        padding: 1.1rem;
+        text-align: center;
+    }
+
+    .para p{
+        font-size: 15px;
+        font-weight: 400;
+        padding: 1.3rem;
+        padding-top: 0.2rem;
+        text-align: center;
+        color: hsl(220, 15%, 55%);
+    }
+}
+
+@media only screen and (max-width:375px){
+    .layout{
+        background-color: hsl(212, 45%, 89%);
+        height: 100vh;
+    }
+    .component{
+        background-color: white;
+        width: 96%;
+        height: 82%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .QR{
+        padding: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img{
+        height: 19rem;
+        width: 19rem;
+        display: block;
+        width: 20rem;
+        border-radius: 10px;
+    }
+
+    .para{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .para h1{
+        font-size: 23px;
+        font-weight: 700;
+        margin-top: 1.5rem;
+        padding: 1.1rem;
+        text-align: center;
+    }
+
+    .para p{
+        font-size: 15px;
+        font-weight: 400;
+        padding: 1.3rem;
+        padding-top: 0.2rem;
+        text-align: center;
+        color: hsl(220, 15%, 55%);
+    }
+}
